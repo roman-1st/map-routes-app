@@ -1,0 +1,14 @@
+@import "src/styles/variables"
+
+.routesRow
+  cursor: pointer
+  color: $color
+  &:hover
+    color: $color-table-hover
+
+
+.activeRow
+  transition: 0.2s
+  background: $back-table-active
+  color: $color-table-active
+  pointer-events: none

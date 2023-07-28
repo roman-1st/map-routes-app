@@ -1,0 +1,11 @@
+.tableContainer {
+  margin: 0 20px 0 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+/*# sourceMappingURL=CustomTable.css.map */

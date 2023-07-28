@@ -1,0 +1,20 @@
+@import "src/styles/_mixins"
+@import 'src/styles/_variables'
+
+.tr-body td
+  @include tableTr
+  cursor: pointer
+  text-align: center
+
+.tr-body
+  &:hover
+    transition: 0.2s
+    background: $back-table-hover
+    color: $color-table-hover
+
+
+.tr-body-active
+  transition: 0.2s
+  background: $back-table-active
+  color: $color-table-active
+  pointer-events: none
